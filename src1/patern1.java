@@ -11,7 +11,7 @@ public class patern1 {
         String [] str =text.split(" ");
       for (String s:str){
           if (Pattern.matches(".*?Error",s)){
-              System.out.println(s +" ")
+              System.out.println(s +" ");
           }
         }
     }
