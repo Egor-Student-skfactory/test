@@ -7,7 +7,7 @@ public class patern1 {
 
         String text =
             "WrongMsisdnError SuccessfulTransaction TimeOutError InternalError SuccessfulTransaction ExternalIDError SuccessfulTransaction WrongIDError" +
-                    "InvalidArgumentError SuccessfulTransaction SuccessfulTransaction SuccessfulTransaction WrongMsisdnError";
+                    "InvalidArgumentError Successfultransaction SuccessfulTransaction SuccessfulTransaction WrongMsisdnError";
         String [] str =text.split(" ");
       for (String s:str){
           if (Pattern.matches(".*?Error",s)){
